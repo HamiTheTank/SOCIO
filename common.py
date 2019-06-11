@@ -17,6 +17,7 @@ def SETUP_BrowserStack():
     variables.driver = webdriver.Remote(
     command_executor='http://alihanozbayrak1:yYzukxkJ3sAqxT1pyW7B@hub.browserstack.com:80/wd/hub', desired_capabilities=variables.desired_caps_BrowserStack)
     #variables.driver.set_page_load_timeout(10)
+    variables.driver.implicitly_wait(100)
     print("[OK] Setup successful")
 
 

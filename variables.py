@@ -31,6 +31,7 @@ pwd_box_xpath = "//hierarchy/android.widget.FrameLayout/android.widget.LinearLay
 #============= DASHBOARD =======================================
 SearchEvent_btn_ID = "com.atsocio.socio:id/button_search_event"
 SearchEvent_bar_ID = "com.atsocio.socio:id/search_src_text"
+myEvent_Name = "ETT Conference 2019"
 MyEvents_tab_ACCESSIBILITY_ID = "MY EVENTS"
 MyEvents_list_ID = "com.atsocio.socio:id/recycler_event_list"
 
